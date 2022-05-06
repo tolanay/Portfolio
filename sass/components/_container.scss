@@ -1,0 +1,16 @@
+.container {
+  color: var(--light);
+  border: 1px red dotted;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+
+  .profile {
+    border: 1px yellow dotted;
+    font-size: 30rem;
+  }
+
+  .img {
+    border: 1px yellow dotted;
+    align-items: center;
+  }
+}

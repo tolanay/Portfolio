@@ -460,10 +460,38 @@ h1 {
   -ms-grid-columns: (max-content)[5];
       grid-template-columns: repeat(5, -webkit-max-content);
       grid-template-columns: repeat(5, max-content);
-  grid-gap: 20px;
+  grid-gap: 40px;
+  padding: 12rem;
+  font-size: 20rem;
+  font-family: "OpenSans ExtraBold";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body {
   background-color: var(--alpha);
+}
+
+.container {
+  color: var(--light);
+  border: 1px red dotted;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr max-content;
+      grid-template-columns: 1fr -webkit-max-content;
+      grid-template-columns: 1fr max-content;
+}
+
+.container .profile {
+  border: 1px yellow dotted;
+  font-size: 30rem;
+}
+
+.container .img {
+  border: 1px yellow dotted;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
