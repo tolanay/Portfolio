@@ -452,9 +452,118 @@ h1 {
 
 .nav {
   color: var(--light);
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
 }
 
 .nav ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (max-content)[5];
+      grid-template-columns: repeat(5, -webkit-max-content);
+      grid-template-columns: repeat(5, max-content);
+  grid-gap: 40px;
+  font-size: 20rem;
+  font-family: "OpenSans Bold";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: var(--alpha);
+}
+
+.container {
+  color: var(--light);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr max-content;
+      grid-template-columns: 1fr -webkit-max-content;
+      grid-template-columns: 1fr max-content;
+  font-family: sans-serif;
+}
+
+.container .profile {
+  max-width: 400px;
+}
+
+.container .profile p {
+  font-size: 36rem;
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+}
+
+.container .profile h1 {
+  font-size: 96rem;
+  font-weight: 300;
+  line-height: 120px;
+}
+
+.container .profile footer {
+  font-size: 25rem;
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+.container .profile button {
+  background-color: var(--contrast);
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "OpenSans Bold";
+  font-size: 28px;
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.container .img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section {
+  color: white;
+  border: 1px red dotted;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr max-content;
+      grid-template-columns: 1fr -webkit-max-content;
+      grid-template-columns: 1fr max-content;
+}
+
+.about {
+  border: 1px yellow dotted;
+  font-size: 24rem;
+  font-family: sans-serif;
+}
+
+.about h1 {
+  font-size: 30rem;
+  color: var(--contrast);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.about p1 {
+  font-size: 24rem;
+  font-family: sans-serif;
+}
+
+.about span {
+  color: var(--contrast);
+}
+
+.aboutnav {
+  color: var(--light);
+}
+
+.aboutnav span {
+  color: var(--contrast);
+}
+
+.aboutnav ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (max-content)[5];
@@ -469,29 +578,23 @@ h1 {
           align-items: center;
 }
 
-body {
-  background-color: var(--alpha);
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf);
 }
 
-.container {
-  color: var(--light);
-  border: 1px red dotted;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr max-content;
-      grid-template-columns: 1fr -webkit-max-content;
-      grid-template-columns: 1fr max-content;
+@font-face {
+  font-family: "OpenSans ExtraBold";
+  src: url(../fonts/OpenSans-ExtraBold.ttf);
 }
 
-.container .profile {
-  border: 1px yellow dotted;
-  font-size: 30rem;
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url(../fonts/OpenSans-Bold.ttf);
 }
 
-.container .img {
-  border: 1px yellow dotted;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.wrapper {
+  width: 90%;
+  margin: 20rem auto;
 }
 /*# sourceMappingURL=main.css.map */

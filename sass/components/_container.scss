@@ -1,16 +1,38 @@
 .container {
   color: var(--light);
-  border: 1px red dotted;
   display: grid;
   grid-template-columns: 1fr max-content;
+  font-family: sans-serif;
 
   .profile {
-    border: 1px yellow dotted;
-    font-size: 30rem;
+    max-width: 400px;
+    p {
+      font-size: 36rem;
+      margin-bottom: 20px;
+      font-family: "Open Sans";
+    }
+    h1 {
+      font-size: 96rem;
+      font-weight: 300;
+      line-height: 120px;
+    }
+    footer {
+      font-size: 25rem;
+      margin-top: 20px;
+      padding-bottom: 0px;
+    }
+    button {
+      background-color: var(--contrast);
+      margin-top: 0px;
+      padding-top: 0px;
+      font-family: "OpenSans Bold";
+      font-size: 28px;
+      margin-top: 20px;
+      padding: 10px 25px;
+      border-radius: 10px;
+    }
   }
-
   .img {
-    border: 1px yellow dotted;
     align-items: center;
   }
 }

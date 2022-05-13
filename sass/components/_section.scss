@@ -1,0 +1,24 @@
+.section {
+  color: white;
+  border: 1px red dotted;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+.about {
+  border: 1px yellow dotted;
+  font-size: 24rem;
+  font-family: sans-serif;
+  h1 {
+    font-size: 30rem;
+    color: var(--contrast);
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  p1 {
+    font-size: 24rem;
+    font-family: sans-serif;
+  }
+  span {
+    color: var(--contrast);
+  }
+}
