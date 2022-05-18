@@ -1,15 +1,17 @@
-.aboutnav {
+.nav {
   color: var(--light);
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+  margin-left: 76px;
   span {
     color: var(--contrast);
   }
   ul {
     display: grid;
     grid-template-columns: repeat(5, max-content);
-    grid-gap: 40px;
-    padding: 12rem;
     font-size: 20rem;
-    font-family: "OpenSans ExtraBold";
+    grid-gap: 40px;
+    font-family: "OpenSans Bold";
     align-items: center;
   }
 }

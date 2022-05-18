@@ -1,22 +1,22 @@
 .section {
-  color: white;
-  border: 1px red dotted;
+  color: #ffffff;
   display: grid;
-  grid-template-columns: 1fr max-content;
+  grid-template-columns: 1fr min-content;
 }
 .about {
-  border: 1px yellow dotted;
   font-size: 24rem;
-  font-family: sans-serif;
+  font-family: "Open Sans";
+
   h1 {
     font-size: 30rem;
     color: var(--contrast);
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: "OpenSans Bold";
+    margin-bottom: 20px;
   }
   p1 {
     font-size: 24rem;
-    font-family: sans-serif;
+    font-family: "Open Sans";
   }
   span {
     color: var(--contrast);

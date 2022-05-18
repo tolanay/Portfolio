@@ -1,0 +1,48 @@
+.contacts {
+  color: var(--contrast);
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+  margin-left: 76px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .contactme {
+    font-size: 24rem;
+    font-family: "Open Sans";
+    max-width: 400px;
+
+    h1 {
+      color: var(--contrast);
+      font-family: "OpenSans Bold";
+      font-size: 30rem;
+      margin-bottom: 10px;
+    }
+    p {
+      color: var(--light);
+      font-size: 24rem;
+      span {
+        color: var(--contrast);
+      }
+    }
+  }
+  .form {
+    color: var(--contrast);
+    font-size: 24rem;
+    margin: 8px;
+    max-width: 400px;
+
+    .form__field {
+      margin: 10px 0;
+      border-radius: 4px;
+    }
+    .form__btn {
+      background-color: var(--contrast);
+      margin-top: 0px;
+      font-family: "Open Sans";
+      padding: 5px 25px;
+      border-radius: 4px;
+      color: var(--light);
+      display: block;
+    }
+  }
+}

@@ -456,6 +456,10 @@ h1 {
   margin-top: 50px !important;
 }
 
+.nav span {
+  color: var(--contrast);
+}
+
 .nav ul {
   display: -ms-grid;
   display: grid;
@@ -524,55 +528,56 @@ body {
 }
 
 .section {
-  color: white;
-  border: 1px red dotted;
+  color: #ffffff;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr max-content;
-      grid-template-columns: 1fr -webkit-max-content;
-      grid-template-columns: 1fr max-content;
+  -ms-grid-columns: 1fr min-content;
+      grid-template-columns: 1fr -webkit-min-content;
+      grid-template-columns: 1fr min-content;
 }
 
 .about {
-  border: 1px yellow dotted;
   font-size: 24rem;
-  font-family: sans-serif;
+  font-family: "Open Sans";
 }
 
 .about h1 {
   font-size: 30rem;
   color: var(--contrast);
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: "OpenSans Bold";
+  margin-bottom: 20px;
 }
 
 .about p1 {
   font-size: 24rem;
-  font-family: sans-serif;
+  font-family: "Open Sans";
 }
 
 .about span {
   color: var(--contrast);
 }
 
-.aboutnav {
+.nav {
   color: var(--light);
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+  margin-left: 76px;
 }
 
-.aboutnav span {
+.nav span {
   color: var(--contrast);
 }
 
-.aboutnav ul {
+.nav ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (max-content)[5];
       grid-template-columns: repeat(5, -webkit-max-content);
       grid-template-columns: repeat(5, max-content);
-  grid-gap: 40px;
-  padding: 12rem;
   font-size: 20rem;
-  font-family: "OpenSans ExtraBold";
+  grid-gap: 40px;
+  font-family: "OpenSans Bold";
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -596,5 +601,74 @@ body {
 .wrapper {
   width: 90%;
   margin: 20rem auto;
+}
+
+.contacts {
+  color: var(--contrast);
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+  margin-left: 76px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.contacts .contactme {
+  font-size: 24rem;
+  font-family: "Open Sans";
+  max-width: 400px;
+}
+
+.contacts .contactme h1 {
+  color: var(--contrast);
+  font-family: "OpenSans Bold";
+  font-size: 30rem;
+  margin-bottom: 10px;
+}
+
+.contacts .contactme p {
+  color: var(--light);
+  font-size: 24rem;
+}
+
+.contacts .contactme p span {
+  color: var(--contrast);
+}
+
+.contacts .form {
+  color: var(--contrast);
+  font-size: 24rem;
+  margin: 8px;
+  max-width: 400px;
+}
+
+.contacts .form .form__field {
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.contacts .form .form__btn {
+  background-color: var(--contrast);
+  margin-top: 0px;
+  font-family: "Open Sans";
+  padding: 5px 25px;
+  border-radius: 4px;
+  color: var(--light);
+  display: block;
+}
+
+.skills {
+  color: var(--light);
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+  margin-left: 76px;
+  font-size: 24rem;
+}
+
+.skills img {
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+  margin-left: 100px;
 }
 /*# sourceMappingURL=main.css.map */
