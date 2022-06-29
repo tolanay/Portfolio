@@ -6,8 +6,19 @@
   font-size: 24rem;
 
   img {
-    margin-bottom: 100px !important;
-    margin-top: 50px !important;
-    margin-left: 100px;
+    align-items: center;
+  }
+  p {
+    font-size: 24rem;
+    margin-bottom: 70px;
+  }
+  button {
+    background-color: var(--contrast);
+    font-family: "OpenSans Bold";
+    font-size: 28px;
+    margin-top: 0px;
+    padding: 10px 80px;
+    border-radius: 10px;
+    margin-left: 200px;
   }
 }

@@ -34,12 +34,16 @@
     .form__field {
       margin: 10px 0;
       border-radius: 4px;
+      padding: 5px 50px;
+    }
+    .form__message {
+      height: 150px;
     }
     .form__btn {
       background-color: var(--contrast);
       margin-top: 0px;
       font-family: "Open Sans";
-      padding: 5px 25px;
+      padding: 5px 50px;
       border-radius: 4px;
       color: var(--light);
       display: block;

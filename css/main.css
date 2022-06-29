@@ -456,10 +456,6 @@ h1 {
   margin-top: 50px !important;
 }
 
-.nav span {
-  color: var(--contrast);
-}
-
 .nav ul {
   display: -ms-grid;
   display: grid;
@@ -646,13 +642,18 @@ body {
 .contacts .form .form__field {
   margin: 10px 0;
   border-radius: 4px;
+  padding: 5px 50px;
+}
+
+.contacts .form .form__message {
+  height: 150px;
 }
 
 .contacts .form .form__btn {
   background-color: var(--contrast);
   margin-top: 0px;
   font-family: "Open Sans";
-  padding: 5px 25px;
+  padding: 5px 50px;
   border-radius: 4px;
   color: var(--light);
   display: block;
@@ -667,8 +668,27 @@ body {
 }
 
 .skills img {
-  margin-bottom: 100px !important;
-  margin-top: 50px !important;
-  margin-left: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills p {
+  font-size: 24rem;
+  margin-bottom: 70px;
+}
+
+.skills button {
+  background-color: var(--contrast);
+  font-family: "OpenSans Bold";
+  font-size: 28px;
+  margin-top: 0px;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+
+.Portfolio {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
